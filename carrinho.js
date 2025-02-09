@@ -43,6 +43,6 @@ $("#checkout").click(function () {
         .join("%0A");
     const total = $("#subtotal").text().split(" ")[1]; // Captura o subtotal
     const whatsappNumber = "5514998862684"; // Número do WhatsApp
-    const url = `https://wa.me/${whatsappNumber}?text=Pedido:%0A${message}%0ASubtotal: ${total}`;
+    const url = `https://wa.me/${whatsappNumber}?text=Olá, esse é meu pedido:%0A${message}`;
     window.open(url, "_blank");
 });
