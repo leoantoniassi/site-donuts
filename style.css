@@ -67,3 +67,28 @@ a {
   border-radius: 5%;
   color: black;
 }
+.accordion{
+  padding: 15px;
+}
+/* Cor do botão do accordion quando fechado */
+.accordion-button {
+  background-color: #FDC6D3; /* Cor de fundo padrão */
+  color: #000; /* Cor do texto */
+}
+
+/* Cor do botão do accordion quando está ativo (aberto) */
+.accordion-button:not(.collapsed) {
+  background-color: #ffbbd2; /* Cor quando o accordion está aberto */
+  color: #000; /* Cor do texto, se necessário */
+}
+
+/* Cor ao focar no botão do accordion */
+.accordion-button:focus {
+  background-color: #ffbbd2; /* Cor ao focar */
+  box-shadow: 0 0 0.25rem rgba(255, 187, 210, 0.5); /* Sombras, se desejado */
+}
+.logo-donuts{
+  width: 200px;
+  height: 75px;
+  border-radius: 5%;
+}
